@@ -16,6 +16,6 @@ sheet1["C13"] = { v: 1.01, t: 'n', w: '1.01' };
 book.Sheets["Sheet1"] = sheet1;
 
 // ファイル書き込み
-XLSX.writeFile( book, './SalesSample2.xls' );
+XLSX.writeFile( book, './SalesSample2.xlsx', { type: 'xlsx' } );
 
 
